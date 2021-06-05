@@ -1,0 +1,76 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #d6e5fa;
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+}
+.flex-item {
+  height: 100vh;
+  background-color: #fef6fb;
+  z-index: 0;
+}
+.img {
+  display: block;
+  z-index: 1;
+  position: absolute;
+  margin-left: 15vw;
+  margin-top: 12vh;
+  border: 2.5vw solid #eec1ea;
+  width: 16vw;
+  border-radius: 50%;
+}
+.head {
+  margin-top: 10vh;
+  /* margin-left: 15vw; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 20px;
+  border-radius: 50%;
+}
+
+.fa:hover + .hide {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-phone {
+  background: #fffbbe;
+}
+.fa-envelope {
+  background: #dd4b39;
+  color: white;
+}
+.fa-github {
+  background: white;
+  background-position: initial;
+  color: black;
+}
